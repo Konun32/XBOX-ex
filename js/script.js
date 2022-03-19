@@ -67,8 +67,8 @@ if (document.documentElement.clientWidth > 744) {
 $(document).ready(function(){
 	$('.slider').slick({
 		dots: true,
-		//autoplay: true,
-		//autoplaySpeed: 3000,
+		autoplay: true,
+		autoplaySpeed: 3000,
 	});
 	$('.games__slider').slick({
 		variableWidth: true,
